@@ -21,7 +21,7 @@
 			display: inline !important;
 		}
 		.embeddedServiceHelpButton .helpButton .uiButton .helpButtonDisabled {
-			display: false !important;
+			display: none !important;
 		}
       </style>
       <script type='text/javascript' src='https://service.force.com/embeddedservice/3.0/esw.min.js'></script>
@@ -49,7 +49,7 @@
 		 
 		document.getElementByClassName('embeddedServiceHelpButton').setAttribute("aria-live", "polite");
         document.getElementByClassName('embeddedServiceHelpButton').setAttribute("aria-atomic", "false");
-		document.getElementByClassName('helpButtonDisabled').setAttribute("display", "false");
+		document.getElementByClassName('helpButtonDisabled').setAttribute("display", "none");
       </script>
    </body>
 </html>
