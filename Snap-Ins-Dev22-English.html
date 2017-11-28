@@ -3,7 +3,7 @@
       <title>This is title</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
    </header>
-   <<body onload="myFunction()" >
+   <body>
       Lightning Snap-Ins Test Page - English (Dev22)
       <br/>
       <style type='text/css'>
@@ -49,15 +49,7 @@
 		 
 		document.getElementByClassName('embeddedServiceHelpButton').setAttribute("aria-live", "polite");
         document.getElementByClassName('embeddedServiceHelpButton').setAttribute("aria-atomic", "false");
-		document.getElementByClassName('helpButtonDisabled').setAttribute("display", "none");
-		document.getElementByClassName('a.uiButton.helpButtonDisabled').setAttribute("display", "none");
-	   </script>
-	   <script>
-		function myFunction() {
-			alert("Page is loaded");
-			document.getElementByClassName('uiButton helpButtonDisabled').setAttribute("display", "none");
-			document.getElementByClassName('a.uiButton.helpButtonDisabled').setAttribute("display", "none");
-		}
+		
 	   </script>
    </body>
 </html>
